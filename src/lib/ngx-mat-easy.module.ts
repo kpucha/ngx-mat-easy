@@ -1,16 +1,9 @@
-import { NgModule } from '@angular/core';
-import { NgxMatEasyComponent } from './ngx-mat-easy.component';
-
-
+import { NgModule } from "@angular/core";
+import { LightSwitchComponent } from "./light-switch/light-switch.component";
 
 @NgModule({
-  declarations: [
-    NgxMatEasyComponent
-  ],
-  imports: [
-  ],
-  exports: [
-    NgxMatEasyComponent
-  ]
+  declarations: [LightSwitchComponent],
+  imports: [],
+  exports: [LightSwitchComponent],
 })
-export class NgxMatEasyModule { }
+export class NgxMatEasyModule {}
