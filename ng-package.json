@@ -3,5 +3,12 @@
   "dest": "../../dist/ngx-mat-easy",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "assets": [
+    "./assets",
+    "./CODE_OF_CONDUCT.md",
+    "./CONTRIBUTING.md",
+    "./LICENSE",
+    "./README.md"
+  ]
 }

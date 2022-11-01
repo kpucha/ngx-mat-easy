@@ -1,0 +1,28 @@
+@import "@angular/material/theming";
+@include mat-core();
+
+$primary-light-on: mat-palette($mat-grey, 100, 50, 400);
+$accent-light-on: mat-palette($mat-light-blue);
+$warn-light-on: mat-palette($mat-deep-orange, A200);
+$theme-light-on: mat-light-theme(
+  $primary-light-on,
+  $accent-light-on,
+  $warn-light-on
+);
+
+$primary-light-off: mat-palette($mat-grey, 900, 800, 900);
+$aaccent-light-off: mat-palette($mat-amber, A200, A100, A400);
+$warn-light-off: mat-palette($mat-deep-orange);
+$theme-light-off: mat-dark-theme(
+  $primary-light-off,
+  $aaccent-light-off,
+  $warn-light-off
+);
+
+.light-on {
+  @include angular-material-theme($theme-light-on);
+}
+
+.light-off {
+  @include angular-material-theme($theme-light-off);
+}

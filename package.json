@@ -1,6 +1,26 @@
 {
+  "author": "alcala28043 <alcala28043@gmail.com> (https://github.com/alcala28043)",
   "name": "ngx-mat-easy",
-  "version": "0.0.1",
+  "version": "0.0.1.alpha",
+  "private": false,
+  "description": "Easy - Reusable and Customizable Angular Material Library UI Components",
+  "homepage": "https://github.com/kpucha/ngx-mat-easy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kpucha/ngx-mat-easy.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "material",
+    "angular-material",
+    "library",
+    "ngx-mat",
+    "angular-component",
+    "angular-material-component",
+    "angular-library",
+    "nodejs"
+  ],
   "peerDependencies": {
     "@angular/common": "^14.2.0",
     "@angular/core": "^14.2.0"
