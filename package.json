@@ -1,7 +1,7 @@
 {
   "author": "alcala28043 <alcala28043@gmail.com> (https://github.com/alcala28043)",
-  "name": "ngx-mat-easy",
-  "version": "0.0.1.alpha",
+  "name": "@kpucha/ngx-mat-easy",
+  "version": "0.0.1-alpha",
   "private": false,
   "description": "Easy - Reusable and Customizable Angular Material Library UI Components",
   "homepage": "https://github.com/kpucha/ngx-mat-easy",
